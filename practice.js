@@ -147,9 +147,9 @@ function math(num1, num2, callback) {
 //Now invoke math, passing in the numbers 3 and 4, and your add function,
 //storing the result in the variable mathSum
 
-var mathSum = add(3,4);
+//var mathSum = add(3,4);
   
-
+var mathSum = math(3, 4, add);
 
 
 //////////////////PROBLEM 8////////////////////
